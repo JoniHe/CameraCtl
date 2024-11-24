@@ -43,6 +43,7 @@
             this.cogDisplayStatusBarV21 = new Cognex.VisionPro.CogDisplayStatusBarV2();
             this.cogDisplay1 = new Cognex.VisionPro.Display.CogDisplay();
             this.NudLatencyLevel = new System.Windows.Forms.NumericUpDown();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             ((System.ComponentModel.ISupportInitialize)(this.nud_Exposure)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cogDisplay1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NudLatencyLevel)).BeginInit();
@@ -222,6 +223,7 @@
         private Cognex.VisionPro.CogDisplayStatusBarV2 cogDisplayStatusBarV21;
         private Cognex.VisionPro.Display.CogDisplay cogDisplay1;
         private System.Windows.Forms.NumericUpDown NudLatencyLevel;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
 
